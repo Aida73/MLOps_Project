@@ -1,0 +1,6 @@
+data/
+myenv/
+.env
+models/
+mlruns/
+unitiled_project/
