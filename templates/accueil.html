@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title }}</title>
+    <link rel="icon" href="{{ url_for('static', filename='logo.png') }}" type="image/gif" sizes="16x16">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            background-image: url("{{ url_for('static', filename='background.jpeg') }}");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center;
+        }
+        .navbar {
+            background-color: rgba(4, 75, 109, 0.7); /* Semi-transparent black background */
+        }
+        .navbar-brand, .navbar-nav .nav-link {
+            color: white;
+        }
+        .container {
+            margin-top: 50px;
+        }
+        .jumbotron {
+            background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .file-upload-btn {
+            margin-bottom: 10px;
+        }
+        .image-preview {
+            max-width: 100%;
+            height: auto;
+        }
+        .prediction-label {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark">
+    <a class="navbar-brand" href="#">AIDIA CLASSIFICATION BUSINESS</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link"  href="{{ url_for('accueil') }}">Accueil</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">A propos de nous</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Liste des Chiens</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<div class="container">
+    <div class="jumbotron text-center" style="height: 270px;">
+          <h3>Accueil</h3>
+          <p>
+            Bienvenue sur notre application de classification automatique d'images de chiens !
+            
+            Notre mission est de faciliter le travail de l'association de protection des animaux en accélérant le processus d'indexation des images de nos pensionnaires à quatre pattes. 
+            Grâce à des techniques avancées de classification d'images, nous pouvons déterminer la race de chaque chien présent sur une photo
+             et ainsi organiser la base de données de manière efficace.</p>
+
+             <p>Cliquer sur le bouton ci-dessous pour pouvoir acceder a l'interface de detection de race des chiens </p>
+
+             <button class="btn btn-info" href="{{ url_for('predict') }}">Let's Go</button>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
