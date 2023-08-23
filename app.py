@@ -13,6 +13,7 @@ app = Flask(__name__)
 # Load the pre-trained Xception model
 model = load_model('model/20230822_model_stanford_breed_dogs.h5',
                    custom_objects={"f1_m": f1_m})
+model.save('chemin_vers_dossier_savedmodel', save_format='tf')
 
 print(model.output_names)
 
