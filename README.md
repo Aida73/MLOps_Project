@@ -152,40 +152,14 @@ Plusieurs modèles ont été testé:
 ├── notebooks
 │   └── mlops_stanford_breed_dogs_model.ipynb
 ├── requirements.txt
-├── settings
-│   ├── __init__.py
-│   ├── __pycache__
-│   │   ├── __init__.cpython-310(1).pyc
-│   │   ├── __init__.cpython-310.pyc
-│   │   ├── params.cpython-310(1).pyc
-│   │   └── params.cpython-310.pyc
-│   └── params.py
-└── untitled_project
-    ├── oracle.json
-    ├── trial_0
-    │   ├── checkpoint
-    │   ├── checkpoint.data-00000-of-00001
-    │   ├── checkpoint.index
-    │   └── trial.json
-    ├── trial_1
-    │   ├── checkpoint
-    │   ├── checkpoint.data-00000-of-00001
-    │   ├── checkpoint.index
-    │   └── trial.json
-    ├── trial_2
-    │   ├── checkpoint
-    │   ├── checkpoint.data-00000-of-00001
-    │   ├── checkpoint.index
-    │   └── trial.json
-    ├── trial_3
-    │   ├── checkpoint
-    │   ├── checkpoint.data-00000-of-00001
-    │   ├── checkpoint.index
-    │   └── trial.json
-    ├── trial_4
-    │   ├── checkpoint
-    │   ├── checkpoint.data-00000-of-00001
-    │   ├── checkpoint.index
-    │   └── trial.json
-    └── tuner0.json
+├── screenshots
+│   └── mlflow1.png
+└── settings
+    ├── __init__.py
+    ├── __pycache__
+    │   ├── __init__.cpython-310(1).pyc
+    │   ├── __init__.cpython-310.pyc
+    │   ├── params.cpython-310(1).pyc
+    │   └── params.cpython-310.pyc
+    └── params.py
 ```
