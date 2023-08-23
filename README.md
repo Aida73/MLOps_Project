@@ -46,6 +46,10 @@ Plusieurs modèles ont été testé:
 
 
 
+**Prédictions du meilleur modèle**
+![Model Screenshot](/screenshots/predictions.png?raw=true)
+
+
 
 
 ## Structure du projet
