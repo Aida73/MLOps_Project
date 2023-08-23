@@ -21,4 +21,4 @@ Pour ce faire, c'est une application Flask qui a été développé.
     python app.py
 ```
 
-![App Screenshot](/result.png?raw=true)
+![App Screenshot](Capture d’écran 2023-08-23 à 03.00.19.png)
