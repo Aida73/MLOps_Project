@@ -60,7 +60,7 @@ Afin d'utiliser le modèle, une application web a été développé pour facilis
 ![App Screenshot](/screenshots/app1.jpg?raw=true)
 
 
-![App Screenshot](/screenshots/app3.jpg?raw=true)
+![App Screenshot](/screenshots/app3.png?raw=true)
 
 
 
