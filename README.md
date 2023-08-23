@@ -54,13 +54,10 @@ Plusieurs modèles ont été testé:
 
 Afin d'utiliser le modèle, une application web a été développé pour faciliser la classification des chiens en race.
 
-![App Screenshot](/screenshots/app2.jpg?raw=true)
+![App Screenshot](/screenshots/demo.gif?raw=true)
 
 
-![App Screenshot](/screenshots/app1.jpg?raw=true)
 
-
-![App Screenshot](/screenshots/app3.png?raw=true)
 
 
 
