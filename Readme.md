@@ -21,4 +21,4 @@ Pour ce faire, c'est une application Flask qui a été développé.
     python app.py
 ```
 
-![App Screenshot](/result1.png?raw=true)
+![App Screenshot](/result.png?raw=true)
