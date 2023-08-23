@@ -50,7 +50,15 @@ Plusieurs modèles ont été testé:
 ![Model Screenshot](/screenshots/predictions.png?raw=true)
 
 
+**Application**
 
+Afin d'utiliser le modèle, une application web a été développé pour faciliser la classification des chiens en race.
+
+
+![App Screenshot](/screenshots/app1.jpg?raw=true)
+
+
+![App Screenshot](/screenshots/app2.jpg?raw=true)
 
 ## Structure du projet
 ```bash
